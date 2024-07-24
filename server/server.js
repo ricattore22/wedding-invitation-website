@@ -6,10 +6,9 @@ const methodOverride = require("method-override");
 const cors = require("cors");
 
 const routeWishesApi = require("./routes/wishes");
-// const routeAdmin = require("./routes/admin");
 
 const app = express();
-const port = 1201;
+const port = 2402;
 
 app.engine("ejs", ejsMate);
 app.set("views", __dirname + "/views");
@@ -18,16 +17,13 @@ app.set("view engine", "ejs");
 app.use(methodOverride("_method"));
 
 app.use(express.json());
-app.use(
-  cors({ origin: ["http://localhost:1201/", `${process.env.BASE_URL}`] })
-);
+app.use(cors({ origin: ["http://localhost:5173/"] }));
 
 app.get("/", (req, res) => {
   return res.render("home");
 });
 
 app.use("/api", routeWishesApi);
-// app.use("/admin", routeAdmin);
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
