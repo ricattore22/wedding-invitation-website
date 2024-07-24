@@ -1,0 +1,65 @@
+{
+  "hero": { "textBtnOpen": "Open Invitation" },
+  "couple": {
+    "title": "Wedding Event",
+    "coupleDesc": {
+      "groom": "The Only Child Of",
+      "bride": "The First Child Of"
+    },
+    "bibleQuote": {
+      "text": "\"... a threefold cord cannot quickly be torn apart.\"",
+      "books": "- Ecclesiastes 4:12"
+    }
+  },
+  "events": {
+    "title": "Event Information",
+    "box1": {
+      "title": "The Ceremony",
+      "desc": {
+        "part1": "Friday, 3rd May 2024",
+        "part2": "13.00 WITA - End"
+      },
+      "location": "Kingdom Hall of Jehovah's Witnesses",
+      "modal": {
+        "textBtn": "View Link",
+        "title": "Live Streaming Wedding Ceremony via Zoom application"
+      }
+    },
+    "box2": {
+      "title": "Reception",
+      "desc": "The full address will be sent directly to those invited to the reception. We appreciate your understanding.",
+      "location": "Luwansa Hotel & Convention Center Manado",
+      "modal": {
+        "textBtn": "View Link",
+        "title": "Live Streaming Reception via the Zoom application"
+      }
+    }
+  },
+  "gifts": {
+    "title": "Your presence and greeting mean a lot to us. If you wish to give a gift, there is a button below to see how you could send gift online.",
+    "modal": {
+      "title": "Gift"
+    }
+  },
+  "wishes": {
+    "title": "Send Greetings",
+    "list": {
+      "message": { "error": "Try again later..." },
+      "fromWhere": "from"
+    },
+    "form": {
+      "title": "Send:",
+      "name": "Name",
+      "address": "Address",
+      "wishes": "Greeting for couple",
+      "textBtnSubmit": "Send",
+      "message": {
+        "success": {
+          "part1": "Successfully sent a greeting...",
+          "part2": "The greeting will load soon"
+        },
+        "error": "Failed to send greeting"
+      }
+    }
+  }
+}

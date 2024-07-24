@@ -1,0 +1,65 @@
+{
+  "hero": { "textBtnOpen": "Buka Undangan" },
+  "couple": {
+    "title": "Acara Pernikahan",
+    "coupleDesc": {
+      "groom": "Putra Tunggal Dari",
+      "bride": "Putri Sulung Dari"
+    },
+    "bibleQuote": {
+      "text": "\"... tali rangkap tiga tidak mudah diputuskan.\"",
+      "books": "- Pengkhotbah 4:12"
+    }
+  },
+  "events": {
+    "title": "Informasi Acara",
+    "box1": {
+      "title": "Khotbah Pernikahan",
+      "desc": {
+        "part1": "Jumat, 3 Mei 2024",
+        "part2": "13.00 WITA - Selesai"
+      },
+      "location": "Balai Kerajaan Saksi-Saksi Yehuwa",
+      "modal": {
+        "textBtn": "Lihat Link",
+        "title": "Live Streaming Khotbah Pernikahan melalui aplikasi Zoom"
+      }
+    },
+    "box2": {
+      "title": "Resepsi",
+      "desc": "Alamat lengkap untuk acara resepsi akan dikirimkan langsung kepada mereka yang diundang. Kami menghargai pengertian Anda",
+      "location": "Luwansa Hotel & Convention Center Manado",
+      "modal": {
+        "textBtn": "Lihat Link",
+        "title": "Live Streaming Resepsi melalui aplikasi Zoom"
+      }
+    }
+  },
+  "gifts": {
+    "title": "Kehadiran dan ucapan Anda sangat berarti bagi kami. Jika Anda ingin memberikan hadiah, terdapat tombol di bawah ini untuk melihat caranya Anda dapat mengirim hadiah secara online.",
+    "modal": {
+      "title": "Hadiah"
+    }
+  },
+  "wishes": {
+    "title": "Kirim Ucapan",
+    "list": {
+      "message": { "error": "Coba lagi nanti..." },
+      "fromWhere": "di"
+    },
+    "form": {
+      "title": "Kirim:",
+      "name": "Nama",
+      "address": "Alamat",
+      "wishes": "Ucapan untuk pasangan",
+      "textBtnSubmit": "Kirim",
+      "message": {
+        "success": {
+          "part1": "Berhasil mengirim ucapan...",
+          "part2": "Ucapan akan segera dimuat"
+        },
+        "error": "Gagal mengirim ucapan"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+<% layout('layouts/boilerplate') %>
+
+<!-- Style -->
+<style>
+  .list,
+  .list th,
+  .list td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .list th {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .list th,
+  .list td {
+    padding: 8px 12px;
+  }
+</style>
+
+<a href="/">Back</a>
+<br />
+
+<!-- Content -->
+<div>
+  <h1>Wishes</h1>
+
+  <table class="list">
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Wishes</th>
+      <th></th>
+    </tr>
+    <% for( let d of data ) { %>
+    <tr>
+      <td><%= d.name %></td>
+      <td><%= d.address %></td>
+      <td><%= d.wishes %></td>
+      <td>
+        <form action="/admin/<%= d.id %>?_method=DELETE" method="post">
+          <button type="submit">Delete</button>
+        </form>
+      </td>
+    </tr>
+    <% } %>
+  </table>
+</div>
